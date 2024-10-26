@@ -1,0 +1,47 @@
+.Anime{
+   padding: 30px;
+}
+.container{
+    background: linear-gradient(180deg,#4a4b51 0,rgba(74,75,81,0) 99%)!important;
+    padding: 30px;
+    border-radius: 1%;
+}
+.info{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.poster{
+    align-self: center;
+    max-height: 500px;
+    max-width: inherit;
+}
+h2{
+    margin-bottom: 20px!important;
+}
+.readMore{
+    color: rgb(94, 148, 192);
+    cursor: pointer;
+}
+.Fullsynopsis{
+    margin-top: 30px!important;
+    font-size: 20px;
+   display: block;
+}
+.synopsis{
+    margin-top: 30px!important;
+    font-size: 20px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+.details{
+    padding-left: 10%!important;
+}
+@media (max-width:992px) {
+    .details{
+        margin-top: 20px!important;
+    }
+}

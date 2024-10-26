@@ -1,0 +1,17 @@
+.logo{
+    width: 2em;
+    height: 2em;
+}
+/* Container has both name and logo */
+.container{
+    display: flex;
+    cursor: pointer;
+}
+.btn{
+    background-color: #212529;
+}
+.name{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: "Roboto";
+}
